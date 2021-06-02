@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: #f0f0f0;
-    min-height: 100vh;
+    background-color: #f5f5f5;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 30px;
+    padding: 25px 35px;
     border-radius: 10px;
     user-select: none;
 }
@@ -30,17 +30,18 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: repeat(2, minmax(40px, auto));
     word-wrap: break-word;
+    padding-bottom: 20px;
+    border-bottom: 1px rgba(128, 128, 128, 0.116) solid;
 }
 
 #Display-area .currentInput {
     /* display: flex; */
     text-align: right;
-    height: 10vh;
+    height: 8vh;
     color: white;
     font-size: xx-large;
     line-height: 2;
     word-wrap: break-word;
-
 }
 
 #Display-area .answerScreen {
@@ -71,13 +72,13 @@ body {
     color: #ff8800;
 }
 
-.num_btn:hover,
-.fun_btn:hover {
+.num_btn:hover,.fun_btn:hover {
     background-color: rgba(29, 29, 29, 0.979);
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
     body {
         background-color: #131313;
+        align-items: flex-start;
     }
 }

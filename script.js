@@ -19,7 +19,7 @@ clearbtn.addEventListener("click", () => {
     answerScreen.innerHTML = 0;
     currentInput.className = 'currentInput'
     answerScreen.className = 'answerScreen';
-    answerScreen.style.color = "white";
+    answerScreen.style.color = " rgba(150, 150, 150, 0.87)";
 })
 
 // Get value of any button clicked and display to the screen
@@ -34,29 +34,32 @@ buttons.forEach((btn) => {
             realTimeScreenValue.push(btn.value)
             currentInput.innerHTML = realTimeScreenValue.join('');
 
-
+            // To evaluate answer in real time
             if (btn.classList.contains('num_btn')) {
 
-                // To evaluate answer in real time
                 answerScreen.innerHTML = eval(realTimeScreenValue.join(''));
 
             }
 
         }
-        // When clicked button is erased button
+
+        // When erase button is clicked
         if (btn.id.match('erase')) {
             realTimeScreenValue.pop();
             currentInput.innerHTML = realTimeScreenValue.join('');
             answerScreen.innerHTML = eval(realTimeScreenValue.join(''));
-
-
         }
 
         // When clicked button is evaluate button
         if (btn.id.match('evaluate')) {
             currentInput.className = 'answerScreen';
             answerScreen.className = 'currentInput';
-            answerScreen.style.color = "#ff8800";
+            answerScreen.style.color = "white";
+        }
+
+        // To prevent undefined error in screen
+        if (typeof eval(realTimeScreenValue.join('')) == 'undefined') {
+            answerScreen.innerHTML = 0
         }
 
     })
