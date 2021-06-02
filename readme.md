@@ -1,7 +1,7 @@
 # Calculator
 This is a simple calculator built with Pure *HTML,* *CSS,* and *JS*
 
-[View Demo](https://karan-kmr.github.io/Js-Calculator/)
+[View Demo](https://karan-kmr.github.io/Simple-Calculator/)
 
 ---
 
