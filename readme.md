@@ -5,7 +5,7 @@ This is a simple calculator built with Pure *HTML,* *CSS,* and *JS*
 
 ---
 
-![alt text](./assets/output.png "This will be the final output")
+![Output Snip](./assets/output.png "This will be the final output")
 
 ### What you'll learn
 * CSS flexbox and grid layout
