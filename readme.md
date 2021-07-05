@@ -1,7 +1,7 @@
 # Calculator
 This is a simple calculator built with Pure *HTML,* *CSS,* and *JS*
 
-![Output Snip](./assets/output.png "This will be the final output")
+![Output Snip](./assets/output.gif "This will be the final output")
 
 
 <p align="center">
