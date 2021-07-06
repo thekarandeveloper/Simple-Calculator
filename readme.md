@@ -5,7 +5,7 @@ This is a simple calculator built with Pure *HTML,* *CSS,* and *JS*
 
 
 <p align="center">
-      <a href="https://codesandbox.io/s/simple-calculator-eljp2" target="_blank">
+      <a href="https://codesandbox.io/s/6d21h" target="_blank">
           <img src="https://github.com/karan-kmr/assets/blob/master/edit-btn.svg" width="180"  height="auto">
     </a> &ensp;
       <a href="https://karan-kmr.github.io/Simple-Calculator/" target="_blank">
