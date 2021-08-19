@@ -6,10 +6,10 @@ This is a simple calculator built with Pure *HTML,* *CSS,* and *JS*
 
 <p align="center">
       <a href="https://codesandbox.io/s/6d21h" target="_blank">
-          <img src="https://github.com/karan-kmr/assets/blob/master/edit-btn.svg" width="180"  height="auto">
+          <img src="https://github.com/add-new/assets/blob/main/editBtn.svg" width="180"  height="auto">
     </a> &ensp;
       <a href="https://karan-kmr.github.io/Simple-Calculator/" target="_blank">
-      <img src="https://github.com/karan-kmr/assets/blob/master/demo-btn.svg" width="180"  height="auto">
+      <img src="https://github.com/add-new/assets/blob/main/demoBtn.svg" width="180"  height="auto">
     </a></br>
 </br>
 </p>
